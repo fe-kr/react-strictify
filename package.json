@@ -23,23 +23,5 @@
     "react-test-renderer": "^16.14.0",
     "ts-jest": "^29.2.5",
     "typescript": "^5.5.4"
-  },
-  "jest": {
-    "rootDir": "./",
-    "modulePaths": [
-      "<rootDir>"
-    ],
-    "testRegex": ".*\\.spec\\.ts$",
-    "transform": {
-      "^.+\\.(t|j)s$": "ts-jest"
-    },
-    "collectCoverageFrom": [
-      "**/*.(t|j)s",
-      "!**/node_modules/**",
-      "!**/coverage/**",
-      "!**/dist/**",
-      "!**/index.(t|j)s"
-    ],
-    "testEnvironment": "node"
   }
 }
