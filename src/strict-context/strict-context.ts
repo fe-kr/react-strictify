@@ -1,5 +1,5 @@
 import { Context, createContext, useContext } from "react";
-import { isNull } from "../utils";
+import { isNil } from "../utils";
 
 export function createStrictContext<T>() {
   return createContext<T | null>(null);
@@ -8,7 +8,7 @@ export function createStrictContext<T>() {
 export function useStrictContext<T>(context: Context<T | null>) {
   const value = useContext(context);
 
-  if (isNull(value)) {
+  if (isNil(value)) {
     throw new Error("Strict context is not provided");
   }
 
