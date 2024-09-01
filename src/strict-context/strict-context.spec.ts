@@ -1,4 +1,4 @@
-import { createElement, ReactNode, PropsWithChildren } from "react";
+import { createElement, PropsWithChildren } from "react";
 import { renderHook } from "@testing-library/react-hooks";
 import { createStrictContext, useStrictContext } from "./strict-context";
 
