@@ -1,4 +1,4 @@
-# React-Strictify
+# React Strictify
 
 !npm version
 !License: MIT
